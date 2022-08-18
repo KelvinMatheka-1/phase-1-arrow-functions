@@ -4,13 +4,6 @@ function divide (num1, num2) {
 	return num1/num2;
 }
 
+ const square =  number => number *	2;
 
-const square = function (num3) {
-	num3 = 2;
-	let x = 2;
-	return x * num3;
-}
-const add = function (a, b) {
-  return a + b;
- 
- }
+ const add = (a, b) => a + b;
